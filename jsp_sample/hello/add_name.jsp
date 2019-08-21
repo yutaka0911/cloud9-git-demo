@@ -29,6 +29,6 @@ ps.close();
 </head>
 <body>
 <p><%=name %>さんを追加しました。</p>
-<a href="index.jsp">戻る</a>
+<a href="add_name.html">戻る</a>
 </body>
 </html>
