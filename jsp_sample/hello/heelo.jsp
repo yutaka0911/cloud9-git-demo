@@ -2,10 +2,10 @@
 
 <html>
 <head>
-<title>Hello World!</title>
+<title>Hello Cloud9!</title>
 </head>
 <body>
-<h1>Hello World!</h1>
+<h1>Hello Cloud9!</h1>
 
 <%
 out.println(new java.util.Date());
