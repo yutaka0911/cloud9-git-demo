@@ -5,7 +5,7 @@
 <title>Hello Cloud9!</title>
 </head>
 <body>
-<h1>Hello Cloud9!</h1>
+<h1>Hey! yo! Hello Cloud9!</h1>
 
 <%
 out.println(new java.util.Date());
