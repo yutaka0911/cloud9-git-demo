@@ -4,6 +4,7 @@ add_name.jsp
     import="java.sql.*"%>
 <%
 request.setCharacterEncoding("UTF-8");
+Class.forName("com.mysql.jdbc.Driver");
 // データベースに接続
 Connection connect = DriverManager.getConnection(
                      "jdbc:mysql://localhost:3306/sample_db?" +
