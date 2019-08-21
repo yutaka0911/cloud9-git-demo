@@ -8,7 +8,7 @@ request.setCharacterEncoding("UTF-8");
 Connection connect = DriverManager.getConnection(
                      "jdbc:mysql://localhost:3306/sample_db?" +
                      "UTF-8&serverTimezone=JST",
-                     "root", "root");
+                     "root", "rootPassword1234!");
 
 PreparedStatement ps = connect.prepareStatement
     ("INSERT INTO names (name) values (?)");
